@@ -1,0 +1,111 @@
+
+/* Style for subject, lesson, question view */
+
+.slq-view .panel-body{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.slq-view .title p, .title1 p{
+    font-size: 18px;
+}
+.slq-view .title h3, .slq-view .title1 h3{
+    color:black;
+}
+
+.slq-view .placeholder, .slq-view .image{
+    float:left;
+    padding-right: 30px;
+}
+
+.slq-view .desc{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.slq-view .desc p{
+    color: darkblue;
+    display: inline-block;
+}
+
+.slq-view li.active a{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #eeeeee !important;
+    border-color: black -moz-use-text-color black black;
+    border-image: none;
+    border-radius: 14px;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    color: blue !important;
+    font-size: 20px;
+}
+.slq-view .sidebar{
+    background: #9D4A5A;
+}
+.slq-view .glyphicon.glyphicon {
+    font-size: 20px;
+}
+.slq-view ol.breadcrumb{
+    background-color: #F0F3F6;
+}
+.slq-view .form-group h1{
+    border-bottom: 1px solid #ddd;
+    color:#9D4A5A;
+}
+.slq-view .lesson{
+    padding-bottom: 10px;
+    border-bottom: 10px dotted #ddd;
+}
+.slq-view .source{
+    text-align: right;
+}
+.slq-view .placeholder img {
+    width: 285px;
+}
+.slq-view .image img{
+    width: 285px;
+}
+.slq-view .attr span{
+    font-size: 44px;
+    color: darkblue;
+
+}
+.slq-view .attrs{
+
+}
+.slq-view .attrs p{
+    font-size: 32px;
+    color: darkblue;
+}
+.slq-view .pad{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.slq-view .robin{
+    float: left;
+}
+.slq-view .robin img{
+    width: 50px;
+}
+
+.slq-view .question{
+    overflow: hidden;
+}
+.slq-view .form-group.placeholder > img {
+    padding-top: 60px;
+}
+.slq-view .title2{
+    display: block;
+}
+.slq-view .imrul{
+    overflow: hidden;
+    width: 100%;
+}
+.slq-view .source1{
+    margin-bottom: 0px;
+}
+.slq-view .source2{
+    color:mediumslateblue;
+}

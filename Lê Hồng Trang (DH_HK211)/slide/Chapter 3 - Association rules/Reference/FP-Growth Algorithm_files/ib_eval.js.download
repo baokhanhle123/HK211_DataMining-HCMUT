@@ -1,0 +1,21 @@
+/*
+ * Copyright (c) 2015-2017. Docentron PTY LTD. All rights reserved.
+ * This material may not be reproduced, displayed, modified or distributed without
+ * the express prior written permission of the copyright holder.
+ */
+
+// Include before ib_message. This cannot be compiled with Google compiler
+ibEvalMessage2 = function(content){
+    "use strict";
+    try{
+        content += '<br/>= ' + eval(content.substr(1));
+
+        // add the message to list
+    }
+    catch (err){
+        content += '<br/>= ' + err;
+    }
+    //pdebug("ibEvalMessage2", content);
+    return content;
+};
+

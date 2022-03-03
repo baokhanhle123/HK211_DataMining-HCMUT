@@ -1,0 +1,127 @@
+/* CSS for forms */
+.panel-body{
+    padding: 15px 0;
+    overflow: hidden;
+
+}
+.panel{
+    background: none;
+}
+/*textarea:hover, input[type="text"]:hover{
+    border: 1px solid black;
+}*/
+
+.browse_button, .clear_button, .both_group{
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+
+.img-sel-btn-grp{
+    margin-left: 5px;
+}
+.group2{
+    margin-top: 14px;
+}
+
+.form-control{
+    /*font-size: 18px;*/
+    border: 1px solid gray;
+    background: #ffffff;
+    /*color: black;*/
+}
+.form-control:hover{
+    border: 1px solid black;
+}
+
+.form-control:focus{
+    background: white;
+    border: 1px solid #111;
+}
+
+.form-control.mceEditor {
+    height: 100px;
+}
+
+.form-group{
+    overflow: hidden;
+}
+
+.image-left img {
+    float: left;
+}
+
+/*page 2 page 3 page 4 page 5 additional styles*/
+@media only screen and (max-width: 990px){
+    .first,.second,.third{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .first1,.second1,.third1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (min-width: 480px){
+    .first1,.third1{
+        padding-left: 0;
+
+    }
+}
+@media only screen and (min-width: 480px){
+    .second1, .third1{
+
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 990px){
+    .qqq{
+        padding-right: 0;
+
+    }
+}
+.second, .third, .forth{
+    overflow: hidden;
+}
+.first{
+padding-left: 0;
+}
+.second{
+padding-right: 0;
+}
+form{
+    overflow: hidden;
+}
+.uuu{
+    display: inline-block;
+}
+.ddd{
+    bottom: 3px;
+    margin-left: 10px;
+    position: relative;
+}
+.www{
+    border: 1px solid black;
+    padding-top: 5px;
+}
+.qqq{
+    padding-left: 0;
+}
+.ccc{
+    padding-bottom: 10px;
+}
+.sss{
+    margin-top: 5px;
+}
+.fff{
+    display: block;
+    float: right;
+}
+.nnn{
+    bottom: 4px;
+    display: inline-block;
+    left: 10px;
+    padding-top: 10px;
+    position: relative;
+}

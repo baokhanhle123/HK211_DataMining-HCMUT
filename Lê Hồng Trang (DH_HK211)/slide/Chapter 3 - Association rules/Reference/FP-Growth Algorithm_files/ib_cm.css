@@ -1,0 +1,37 @@
+/*
+ * Copyright (c) 2015-2020. PT Docentron Trd Indonesia. All rights reserved.
+ * This material may not be reproduced, displayed, modified or distributed without
+ * the express prior written permission of the copyright holder.
+ */
+/*
+For contact manager tabs. ib_cm.js.
+*/
+
+.cm-tabs > li > a {
+    color: #cbcbcb;
+    background-color: #808080;
+    padding: 10px;
+    border: 1px;
+}
+
+.cm-tabs > li > a:hover{
+    padding: 10px;
+    border: 1px;
+}
+
+.cm-tabs > li.active > a:hover{
+    padding: 10px;
+    border: 1px solid #428bca;
+    border-bottom-color: transparent;
+}
+
+.cm-tabs > li.active > a{
+    padding: 10px;
+    border: 1px;
+}
+
+.cm-tabs > li > a:hover {
+    border: 1px solid #428bca;
+    border-bottom-color: transparent;
+}
+

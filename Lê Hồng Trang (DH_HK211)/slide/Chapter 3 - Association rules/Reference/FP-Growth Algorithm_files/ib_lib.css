@@ -1,0 +1,423 @@
+/*
+ * Copyright (c) 2015-2020. PT Docentron Trd Indonesia. All rights reserved.
+ * This material may not be reproduced, displayed, modified or distributed without
+ * the express prior written permission of the copyright holder.
+ */
+.carousel-caption h2{
+    color:#ffffff!important;
+    font-size: 20px;
+}
+
+.btn-ib-header{
+    margin-left: -10px;
+}
+
+.ib-page:after {
+    font-size: 8pt;
+    content:"Powered by Docentron. \00a9  2015 - 2020 PT Docentron Trd Indonesia.";
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.ib-panel-heading {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: rgba(0,0,0,0.5)!important;
+}
+
+.navbar-ib{
+    text-align: left;
+}
+.navbar-ib-logo{
+    padding-left: 55px;
+}
+.gif-loader{
+    background:url(/assets/images/ajax-loader.gif) no-repeat center;
+    display:none;
+    height:45px;
+}
+
+a {
+    color: #0645ad;
+}
+
+/* visited link */
+a:visited {
+    color: #0b0080;
+}
+
+.ibChatTextInput {
+    border: solid 1px black;
+}
+
+@-webkit-keyframes blink {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+.credit-blink {
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: cubic-bezier(1.0, 0, 0, 1.0);
+    -webkit-animation-duration: 0.5s;
+}
+.jrn-credit {
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.sbj-author-name {
+    font-weight: bold;
+}
+
+.odometeram {
+    cursor:pointer;
+    height:34px !important;
+    margin-top:5px;
+}
+
+.odometer {
+    cursor:pointer;
+    height:34px !important;
+}
+
+.cat-btn{
+    border: solid 1px grey;
+    margin-top:5px;
+}
+
+.qg-cat-btn{
+    border: solid 0 black;
+    margin-top:5px;
+}
+
+/* Remove highlight around bootstrap buttons */
+.btn:focus {
+    outline: none;
+}
+
+/*---------------------------------------------*/
+/**
+ * Copyright (c) 2015-2020. PT Docentron Trd Indonesia. All rights reserved.
+ * This material may not be reproduced, displayed, modified or distributed without
+ * the express prior written permission of the copyright holder.
+ */
+/* Application specific CSS */
+/*---------------------------------------------*/
+
+/*
+.cards-rowc{padding-left: 0; padding-top:5px; padding-bottom:5px; background:#eee}
+.thumbnailc{min-height: 300px; padding: 10px; border-radius: 5px; border: 1px solid #ddd; box-shadow: 7px 7px 8px -4px #aaa;)}
+.thumbnailc>img{width:100%; display:block}
+.thumbnailc h3{font-size:20px}
+.thumbnailc h3,.card-description{margin:0; padding:0 0; border-bottom:solid 1px #eee; text-align:justify}
+.thumbnailc p{padding-top:10px; font-size:14px}
+.thumbnailc .btn{border-radius:0; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); font-size:18px}
+.thumbnailc .captionc {padding: 9px; color: #333;}
+.thumbnailcol{padding-left: 0; padding-right: 0;}
+*/
+/* Prodct Page */
+.thumbnailrow{margin-left: 0; margin-right: 5px; margin-bottom: 10px;}
+.thumbnailhrrow{margin: 20px 5px 30px 0;}
+.thumbnailhrcol{width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center;}
+.thumbnailhrtxt{font-size: 24px; background-color: #F5F5F5; padding: 0 10px;}
+
+.img-valign-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.owl-carousel .dc-owl-item {margin: 0; width:160px; height: 180px; padding: 1px;}
+.owl-carousel .dc-owl-item img{max-width: 158px; max-height: 158px; vertical-align: middle; display: inline-block !important;}
+.owl-carousel .dc-owl-item div{height: 158px; white-space: nowrap; text-align: center;}
+.owl-carousel .dc-owl-item .item-info{height: 20px; margin: 0; position: relative;}
+.owl-carousel .dc-owl-item .title {text-overflow: ellipsis; white-space: nowrap; color: #BE2620;}
+.owl-carousel .dc-owl-item .prc {float: right;  display: inline-block;  margin-top: 3px;  font-size: 13px;  color: #f90f0e; line-height: 16px; font-weight: bold;}
+
+.owl-carousel .itemsmall {margin: 0; width:102px; height: 132px; padding: 1px; text-align:center; overflow: hidden;}
+.owl-carousel .itemsmall img{max-width: 100px; max-height: 100px; vertical-align: middle; display: inline-block !important;;}
+.owl-carousel .itemsmall div{height: 100px; white-space: nowrap; text-align: center;}
+.owl-carousel .itemsmall .title{text-overflow: ellipsis; white-space: nowrap; color: #BE2620;}
+.owl-carousel .itemsmall .prc {margin-top:-5px; color: #f90f0e; display: block; text-align: center; font-weight: bold;}
+
+.item-quick-buy {cursor: pointer;}
+.dc-homeprdicon {cursor: pointer;}
+.owl-carousel .item-quick-buy {margin: 0; width:160px; height: 122px; padding: 1px; text-align:center; overflow: hidden;}
+.owl-carousel .item-quick-buy img{max-width:158px; max-height:90px; vertical-align: middle; display: inline-block !important;;}
+.owl-carousel .item-quick-buy div{height: 90px; white-space: nowrap; text-align: center;}
+.owl-carousel .item-quick-buy .title{text-overflow: ellipsis; white-space: nowrap; color: #BE2620;}
+.owl-carousel .item-quick-buy .prc {margin-top:-5px; color: #f90f0e; display: block; text-align: center; font-weight: bold;}
+
+.owl-carousel .itemmedium {margin: 0; width:127px; height: 157px; padding: 1px; text-align:center; overflow: hidden;}
+.owl-carousel .itemmedium img{max-width: 125px; max-height: 125px; vertical-align: middle; display: inline-block !important;;}
+.owl-carousel .itemmedium div{height: 125px; white-space: nowrap; text-align: center;}
+.owl-carousel .itemmedium .title {text-overflow: ellipsis; white-space: nowrap; color: #BE2620;}
+.owl-carousel .itemmedium .prc {margin-top:-5px; color: #f90f0e; display: block; text-align: center; font-weight: bold;}
+
+.owl-carousel-h2 {padding: 0 0 5px 35px; margin: 1px; font-size: 13px; color: #ff5767; height:24px; background: url(/assets/images/wid/symbols.png) 0 0px no-repeat;}
+.owl-carousel-title {text-decoration: none !important; display: inline-block; color: #BE2620; vertical-align:middle; line-height: 24px;}
+.owl-carousel-prc {float: right;  display: inline-block;  margin-top: 3px;  font-size: 13px;  color: #f90f0e; line-height: 16px; font-weight: bold;}
+
+.owl-carousel .itemEmpty {margin: 0; width:160px; height: 180px; padding: 1px; background:yellowgreen;}
+#mathgame {background: url(/assets/images/wid/symbols.png) 0 -24px no-repeat;}
+#languagegame {background: url(/assets/images/wid/symbols.png) 0 -48px no-repeat;}
+#sciencegame {background: url(/assets/images/wid/symbols.png) 0 -72px no-repeat;}
+#geographygame {background: url(/assets/images/wid/symbols.png) 0 -96px no-repeat;}
+#historygame {background: url(/assets/images/wid/symbols.png) 0 -120px no-repeat;}
+
+/*----------------------------------------------*/
+/* BASE */
+figure {
+    display:inline-block; padding:0; margin:5px;
+    border:1px solid #ddd;
+    background:#fff;
+}
+figcaption {
+    font:1.5em/2em "Rock Salt", cursive; color:#5b5983;
+}
+
+/* EFFECTS */
+.effect1 {
+    position:relative;
+}
+.effect1::before, .effect1::after {
+    position:absolute; bottom:15px; top:80%; left:10px; z-index:-1; width:50%; max-width:300px;
+    background:rgba(0,0,0,.8);
+    content:""; box-shadow:0 15px 10px rgba(0,0,0,.7); transform: rotate(-3deg);
+}
+.effect1::after {
+    right:10px; left:auto;
+    transform: rotate(3deg);
+}
+
+
+.effect2 {
+    position:relative;
+    box-shadow:0 1px 4px rgba(0,0,0,.1), 0 0 40px rgba(0,0,0,.05) inset;
+}
+.effect2::after {
+    position:absolute; top:50%; bottom:0; left:10px; right:10px; z-index:-1;
+    border-radius:100px / 10px;
+    content:""; box-shadow:0 0 20px rgba(0,0,0,.8);
+}
+
+.panel-heading-title {
+    font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.search-query-box{
+    line-height: 34px;
+    width: 250px;
+    float: right;
+    margin-right: 140px;
+}
+
+.search-query-box-input {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 14px;
+
+    width: 100%;
+    padding: 0 35px 0 5px;
+    position: relative;
+    vertical-align: top;
+    border-radius: 4px;
+    border: solid 1px grey;
+}
+/*-----------------*/
+.doubleicon{
+    position: relative;
+    width: 75px;
+    padding: 15px 5px 10px 5px;
+    height: 95px;
+    float: left;
+    margin: 5px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.doubleicon_l{
+    position: relative;
+    width: 75px;
+    padding: 15px 5px 10px 5px;
+    height: 109px;
+    display: inline-grid;
+    zoom: 1;
+    margin: 5px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-nav-btn-icon {font-size: 45px;}
+.home-nav-btn-txt {padding-top: 10px; font-size: 11px;text-shadow: -2px -1px 0 #fff; color: black;}
+
+.mes-home-banner-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+}
+.mes-home-banner-image::before {
+    /*background: rgba(200, 50, 0, 0.50) none repeat scroll 0 0;*/
+    background: rgb(255, 71, 71) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.mes-home-banner-image h1 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+.mes-home-banner-path {
+    color: #ffffff;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 9;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav>li>a{
+    text-decoration:none;
+}
+
+.dc-padded-panel-body {
+    padding-top: 60px;
+}
+
+/*---------------------------------*/
+/* media list for subjects and products */
+.p-media-list{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 68px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    list-style: disc;
+}
+.p-media-list *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+.p-media-list li {
+    list-style: none;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+    display: list-item;
+    vertical-align: baseline;
+}
+.p-media-list-item{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    display: block;
+    border-radius: 2px;
+}
+.p-media-list-item img{
+    max-width: 48px;
+    max-height: 48px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    color: transparent;
+    /*vertical align img */
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+/* Hover, select hightlit. Resize the image when hover to prevent moving up/down*/
+.p-media-list-item:hover img, li .current img{
+    max-width: 44px;
+    max-height: 44px;
+}
+.p-media-list-item:hover, li .current {
+    border: 3px solid orange;
+    border-radius: 4px;
+}
+.navbar-brand {
+    text-decoration: none;
+}
+
+.table-action {
+    vertical-align:middle;
+}
+.action-text {
+    font-size: 10px;
+}
+
+.bootstrap-table tr td img{
+    border-radius: 12px;
+}
+
+.ib-page input, .ib-page select, .ib-page textarea{
+    margin-bottom: 0;
+}
+
+.cookie-accept {
+    max-width: 300px;
+    width: 100%;
+    right: 20px;
+    height: auto;
+    z-index: 9999;
+    bottom: 0;
+    position: fixed!important;
+    color: #fff!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    padding-bottom: .5rem!important;
+    border-top-left-radius: .25rem!important;
+    border-top-right-radius: .25rem!important;
+    background-color: #007bff!important;
+}
+.cookie-accept a {
+    border-color: #f8f9fa;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    border-radius: .25rem;
+    text-decoration: none;
+}
+.cookie-accept a:hover {
+    border-color: #f8f9fa;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}

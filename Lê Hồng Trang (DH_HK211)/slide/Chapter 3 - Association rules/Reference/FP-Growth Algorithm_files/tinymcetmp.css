@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------*/
+.tinymcetmp-jn-bicon {font-size:2rem; color: blue; cursor: pointer}
+.tinymcetmp-jn-ricon {font-size:2rem; color: red; cursor: pointer}
+.tinymcetmp-jn-oicon {font-size:2rem; color: orange; cursor: pointer}
+
+/*--------------------------------------------------------------------*/
+/*Stylish button list https://bootsnipp.com/snippets/featured/stylish-button-list */
+.tinymcetmp-ds-btn li{ list-style:none; float:left; padding:10px; }
+.tinymcetmp-ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:left;}
+.tinymcetmp-ds-btn li a span small{width:100%; display:inline-block; text-align:left;}
+
+/*--------------------------------------------------------------------*/
+/*Card View https://bootsnipp.com/snippets/featured/bootstrap-4-card */
+.tinymcetmp-cardview {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.tinymcetmp-cardview-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.tinymcetmp-cardview-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tinymcetmp-cardview-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.tinymcetmp-cardview-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.tinymcetmp-cardview-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.tinymcetmp-cardview-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.tinymcetmp-cardview-profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.tinymcetmp-cardview-profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tinymcetmp-cardview-profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.tinymcetmp-cardview-profile-inline ~ .tinymcetmp-cardview-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.tinymcetmp-cardview-text-bold {
+    font-weight: 700;
+}
+
+.tinymcetmp-cardview-meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.tinymcetmp-cardview-meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.tinymcetmp-cardview-meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
